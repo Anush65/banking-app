@@ -1,10 +1,10 @@
-# 🏦 NexaBank — Database-Centric Banking Transaction System
+# NexaBank — Database-Centric Banking Transaction System
 
 A full-stack banking system built with **React**, **Node.js/Express**, and **PostgreSQL**, featuring role-based access control, real-time banking operations, and comprehensive audit logging.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Tech Stack](#tech-stack)
 - [Features](#features)
@@ -18,7 +18,7 @@ A full-stack banking system built with **React**, **Node.js/Express**, and **Pos
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer      | Technology                     |
 |------------|-------------------------------|
@@ -31,7 +31,7 @@ A full-stack banking system built with **React**, **Node.js/Express**, and **Pos
 
 ---
 
-## ✨ Features
+## Features
 
 ### Authentication & RBAC
 - JWT-based authentication with 24-hour expiry
@@ -64,7 +64,7 @@ A full-stack banking system built with **React**, **Node.js/Express**, and **Pos
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 banking-app/
@@ -113,7 +113,7 @@ banking-app/
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 - **Node.js** v18+ (`node --version`)
 - **npm** v9+ (`npm --version`)
@@ -122,7 +122,7 @@ banking-app/
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### Step 1: Clone / Extract the project
 
@@ -195,8 +195,8 @@ npm start
 
 You should see:
 ```
-✅ PostgreSQL connected successfully
-🏦 Banking System API running on http://localhost:5000
+PostgreSQL connected successfully
+Banking System API running on http://localhost:5000
 ```
 
 ### Step 7: Install & Start the Frontend
@@ -265,7 +265,7 @@ Audit_Log      — log_id, transaction_id, action, timestamp, remarks
 
 ---
 
-## 🔑 Demo Credentials
+## Demo Credentials
 
 | Role     | Username   | Password  | Customer         |
 |----------|------------|-----------|------------------|
@@ -278,7 +278,7 @@ Audit_Log      — log_id, transaction_id, action, timestamp, remarks
 
 ---
 
-## 🔒 Security Features
+## Security Features
 
 - Passwords stored as bcrypt hashes (10 salt rounds)
 - JWT tokens expire after 24 hours
@@ -290,7 +290,7 @@ Audit_Log      — log_id, transaction_id, action, timestamp, remarks
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Backend can't connect to PostgreSQL**
 - Verify `DB_PASSWORD` in `.env` matches your PostgreSQL user password
